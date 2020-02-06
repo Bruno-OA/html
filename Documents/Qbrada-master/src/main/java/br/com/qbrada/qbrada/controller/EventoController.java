@@ -56,7 +56,6 @@ public class EventoController {
         ModelAndView mdv = new ModelAndView("listarEventos");
         mdv.addObject("eventos", service.listarNome(nome));
         return mdv;
-
     }
 
     @GetMapping("evento")
